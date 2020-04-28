@@ -1,0 +1,10 @@
+import numpy as np
+a = np.arange(12)
+a = a.reshape((3,4))
+print(a)
+b = np.arange(12).reshape((4,3))
+b = b.ravel()
+print(b)
+c = np.arange(12).reshape((2,6))
+c = c.ravel()
+print(c)
